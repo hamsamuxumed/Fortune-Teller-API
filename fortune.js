@@ -28,9 +28,10 @@ class Fortune {
 		this.fortune = fortuneList[fortuneIndex];
 	};
 
-
 	getFortune(name) {
 		let fortune = new Fortune(name, Math.floor(Math.random()*fortuneList.length));
 		return `${name}, ${fortune}`;
 	};
 };
+
+module.exports = { Fortune:Fortune }
