@@ -8,3 +8,4 @@ class FortuneTeller {
         this.name = name;
     }
 }
+
